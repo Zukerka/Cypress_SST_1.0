@@ -1,0 +1,36 @@
+{
+    "valid": {
+        "email": "diversido.qana+IA@gmail.com", 
+        "password": "password"
+    },
+
+    "invalidEmail": {
+        "email": "diversido.qana+IA22@gmail.com", 
+        "password": "password", 
+        "snackbar": "Invalid email or password"
+    }, 
+
+    "invalidPass": {
+        "email": "diversido.qana+IA@gmail.com", 
+        "password": "password1", 
+        "snackbar": "Invalid email or password"
+    },
+
+    "nonConfirmed": {
+        "email": "test6@test.io", 
+        "password": "password", 
+        "snackbar": "Please confirm your account"
+    },
+
+    "AICC": {
+        "email": "natalia.kolesnychenko+test11@diversido.io", 
+        "password": "password", 
+        "snackbar": "Oops! You are trying to sign in through SST's website. However, you should sign in through the\n         AICC Test Institution Learning Management System website."
+    },
+
+    "SCORM": {
+        "email": "natalia.kolesnychenko+toscorm@diversido.io", 
+        "password": "password", 
+        "snackbar": "Oops! You are trying to sign in through SST's website. However, you should sign in through the\n         SCORM Test Institution Learning Management System website."
+    }
+}

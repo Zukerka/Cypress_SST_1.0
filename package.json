@@ -1,0 +1,15 @@
+{
+  "name": "cypress_sst",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Natalia Kolesnychenko",
+  "license": "ISC",
+  "description": "First SST auto tests",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
