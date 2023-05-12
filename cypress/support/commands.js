@@ -46,9 +46,9 @@ Cypress.Commands.add('openAWP', () => {
 })
 
 Cypress.Commands.add('loginSST', (email, password) => { 
-    cy.get('.jss46').find('input[name="email"]').type(email);
-    cy.wait(2000)
-    cy.get('.jss46').find('input[name="password"]').type(password);
-    cy.wait(2000)
-    cy.get('.jss46').find('button').click(); 
+    cy.get('.jss44').find('input[name="email"]').type(email);
+    // cy.wait(2000)
+    cy.get('.jss44').find('input[name="password"]').type(password);
+    // cy.wait(2000)
+    cy.get('.jss44').find('button').click(); 
 })
